@@ -1,5 +1,4 @@
 import {Features} from '@/types/interfaces';
-import {featureBlock} from '@/components/FeaturesBlock';
 
 export const features:Features[]=[
   {
@@ -19,7 +18,7 @@ imageUrl:'/features/protect.png',
   }
   ]
 
-export const FeaturesBlock:featureBlock[]=[
+export const featuresBlock:featureBlock[]=[
   {
     imageUrl:"/features/messaing.svg",
     title:"Integrated Messaging System",
