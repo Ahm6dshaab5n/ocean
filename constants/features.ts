@@ -18,7 +18,7 @@ imageUrl:'/features/protect.png',
   }
   ]
 
-export const featuresBlock:featureBlock[]=[
+export const featuresBlock:FeatureBlock[]=[
   {
     imageUrl:"/features/messaing.svg",
     title:"Integrated Messaging System",
