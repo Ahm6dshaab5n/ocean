@@ -1,4 +1,5 @@
 import {Features} from '@/types/interfaces';
+import {featureBlock} from '@/components/FeaturesBlock';
 
 export const features:Features[]=[
   {
@@ -31,5 +32,3 @@ export const FeaturesBlock:featureBlock[]=[
      isReversed:true,
   }
   ]
-
-export default FeaturesBlock;
