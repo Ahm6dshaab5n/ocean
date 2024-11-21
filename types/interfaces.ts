@@ -16,7 +16,7 @@ export interface featureBlock extends Feature {
 export interface Pricing {
   title:string,
   description:string,
-  monthlyPricing:number,
+  monthlyPrice:number,
   features:string[],
   isMostPopular?:boolean,
   glowPosition?:'right'|'left'
