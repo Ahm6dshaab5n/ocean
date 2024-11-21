@@ -1,8 +1,8 @@
-import { Features } from "@/types/interfaces";
+import { Feature } from "@/types/interfaces";
 import Image from "next/image";
 import { FC } from "react";
 
-interface FeatureCardProps extends Features {}
+interface FeatureCardProps extends Feature {}
 
 const FeatureCard: FC<FeatureCardProps> = ({ title, imageUrl, content }) => {
   return (
