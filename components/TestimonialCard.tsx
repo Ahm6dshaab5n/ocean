@@ -1,4 +1,4 @@
-import { Testimonial } from "@/types/interfaces";
+import { Testimonials } from "@/types/interfaces";
 import { Quote } from "lucide-react";
 import Image from "next/image";
 import { FC } from "react";
