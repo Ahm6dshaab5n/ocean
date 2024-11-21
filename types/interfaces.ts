@@ -9,7 +9,7 @@ export interface Features{
   content:string
 }
 
-export interface featureBlock extends Feature {
+export interface featureBlock extends Features {
   isReversed?:boolean
 }
 
