@@ -3,7 +3,7 @@ export interface Client{
   alt:string
 }
 
-export interface Feature{
+export interface Features{
   imageUrl:string,
   title:string,
   content:string
