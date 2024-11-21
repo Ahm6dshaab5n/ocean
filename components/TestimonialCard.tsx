@@ -3,7 +3,7 @@ import { Quote } from "lucide-react";
 import Image from "next/image";
 import { FC } from "react";
 
-interface TestimonialCardProps extends Testimonial {}
+interface TestimonialCardProps extends Testimonials {}
 
 const TestimonialCard: FC<TestimonialCardProps> = ({
   imageUrl,
