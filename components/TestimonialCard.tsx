@@ -1,9 +1,9 @@
-import { Testimonials } from "@/types/interfaces";
+import { Testimonial } from "@/types/interfaces";
 import { Quote } from "lucide-react";
 import Image from "next/image";
 import { FC } from "react";
 
-interface TestimonialCardProps extends Testimonials {}
+interface TestimonialCardProps extends Testimonial {}
 
 const TestimonialCard: FC<TestimonialCardProps> = ({
   imageUrl,
@@ -33,3 +33,4 @@ const TestimonialCard: FC<TestimonialCardProps> = ({
 };
 
 export default TestimonialCard;
+
