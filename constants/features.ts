@@ -31,3 +31,5 @@ export const FeaturesBlock:featureBlock[]=[
      isReversed:true,
   }
   ]
+
+export default FeaturesBlock;
